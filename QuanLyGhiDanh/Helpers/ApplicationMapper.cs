@@ -9,6 +9,7 @@ namespace QuanLyGhiDanh.Helpers
         public ApplicationMapper() 
         {
             CreateMap<Users, UserModel>().ReverseMap();
+            CreateMap<Students, StudentDTO>().ReverseMap();
         }
     }
 }

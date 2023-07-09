@@ -13,6 +13,7 @@ namespace QuanLyGhiDanh.Data
         public DbSet<Users> Users { get; set; }
         public DbSet<Roles> Roles { get; set; }
         public DbSet<Actions> Actions { get; set; }
+        public DbSet<Students> Students { get; set; }
         #endregion
     }
 }
